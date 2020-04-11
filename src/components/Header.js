@@ -1,20 +1,23 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
+import { Icon, InlineIcon } from '@iconify/react';
+import eagleIcon from '@iconify/icons-noto-v1/eagle';
+
+
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <h1></h1>
+    <p>&nbsp;&nbsp;<InlineIcon icon={eagleIcon} width="3em" height="3em" /></p>
     </div>
+
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Arya Murthi</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          I won't pretend to know much about web design. 
+          But I sure can run a starter.  
         </p>
       </div>
     </div>
