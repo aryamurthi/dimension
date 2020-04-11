@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+import pic01 from '../images/welcome.png'
+import pic02 from '../images/analytics.png'
 import pic03 from '../images/selfie.png'
 
 class Main extends React.Component {
@@ -59,13 +59,48 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
-            Let's see... I ate a bagel with cream cheese this morning&mdash;
-            that has to count for something, right?
-          </p>
-          <p>
- 
-          </p>
+        <p>I ate a bagel with cream cheese this morning&mdash; 
+          that's gotta count for something, right? If not, feel free to check out some of my experiences below or my&nbsp;
+          <a href="https://www.linkedin.com/in/arya-murthi/">LinkedIn</a>:
+        </p>
+<p>
+            <h3> <a href="https://www.delltechnologies.com/en-us/services/consulting-services/index.htm">Dell Technologies</a></h3>
+            <h4>Part Time Analyst</h4>
+            <li>Initiated an internal asset performance tracking process through Adobe Analytics</li>
+           <h1></h1>
+            <h4>Consulting Services Marketing Intern</h4>
+            <li>Completed 250+ hours of Adobe Analytics experience tracking and utilizing website visitor data</li>
+            <li>Identified and resolved data reporting misalignments that overestimated performance by more than 500%</li>
+            <li>Used misalignment data to propose a platform solution to increase visitor visibility by 1800% </li>
+         <li>Ran 20+ models using predictive analytics and data mining to develop statistically significant insights into the team’s performance measurement strategy</li>
+          <li>Proposed a dynamic consulting homepage to re-engage 60,000+ visitors each quarter</li>
+</p>
+<p>
+          <h3> <a href="https://www.breaktime.org/">Breaktime (volunteer)</a></h3>
+          <h4> Director of Marketing and Advertising </h4>
+           <li>Successfully ran 4 social media campaigns driving a 3x return on engagement over previous ad spend</li> 
+           <li>Integrated a multi-faceted, digital marketing approach with HubSpot CRM, Mail Chimp, Facebook Business Manager, and Google Analytics</li>
+           <li>Oversaw a team of undergraduates striving to provide stable employment to homeless youth by establishing cafes	</li>
+</p>
+<p>
+            <h3> <a href="https://www.bjs.com/membershipEnroll">BJs Wholesale Club</a></h3>
+            <h4>Management Development Intern: Membership Acquisition</h4>
+            <li>Project managed 6 functional areas to successfully launch 4 digital acquisition campaigns with a combined reach of 1.5M+ and budgeted cost of $160,000</li>
+            <li>Analyzed BJ’s current social media acquisition campaigns and proposed a mobile-optimized ad experience to recapture 90,000+ qualified leads</li>
+            <li>Implemented tracking strategies (pixels, market codes, vanity URLs etc.) to collect and measure acquisition KPIs</li>
+</p>
+
+          <p></p> 
+          <p></p>
+           <ul className="icons"> 
+           <li>
+              <a href="https://www.linkedin.com/in/arya-murthi/" className="icon fa-linkedin">
+                <span className="label">LinkedIn</span>
+              </a>
+            </li>
+            </ul>
+
+      
           {close}
         </article>
 
