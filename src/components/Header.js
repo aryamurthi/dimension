@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
-import { Icon, InlineIcon } from '@iconify/react';
+import { InlineIcon } from '@iconify/react';
 import eagleIcon from '@iconify/icons-noto-v1/eagle';
 
 
